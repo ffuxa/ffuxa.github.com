@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SudokuRow from './components/SudokuRow/SudokuRow';
+import random_boards from './utils/boards';
 import './App.css';
 
 class App extends Component {
@@ -153,6 +154,14 @@ class App extends Component {
     console.log(this.state.grid)
   }
 
+  load_random_board() {
+    let index =  Math.floor(Math.random() * random_boards.length);
+
+    this.setState({
+      grid: random_boards[index]
+    });
+  }
+
   render() {
     return (
       <div>
@@ -194,6 +203,12 @@ class App extends Component {
                   className="btn btn-danger"
                   onClick={() => this.clear_grid()}>
             Clear
+          </button>
+
+          <button id="clear"
+                  className="btn btn-primary"
+                  onClick={() => this.load_random_board()}>
+            Random
           </button>
         </div>
       </div>
