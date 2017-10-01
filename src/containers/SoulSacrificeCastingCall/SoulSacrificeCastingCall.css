@@ -1,0 +1,77 @@
+#container {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 40px 100px;
+}
+
+#title-top {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 54px;
+    font-weight: bold;
+    color: crimson;
+  /*background-color: #F6F6F6;*/
+}
+
+#brought-by {
+    color: hotpink;
+}
+
+#oh-boy {
+    color: orange;
+}
+
+#one {
+    color: deepskyblue;
+}
+
+#two {
+    color: tomato;
+}
+
+#three {
+    color: tan;
+}
+
+#four {
+    color: chocolate;
+}
+
+#five {
+    color: fuchsia;
+}
+
+#what-i-need {
+    color: aqua;
+}
+
+#instruments {
+    color: azure;
+}
+
+.inst {
+    color: bisque;
+}
+
+li {
+    font-size: 30px;
+}
+
+#qa-title {
+    color: azure;
+}
+
+.question {
+    color: chartreuse;
+}
+
+.answer {
+    color: #FBFBF1;
+}
+
+#casting-info {
+    text-align: center;
+}
